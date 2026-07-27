@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+html {
+    background-color:white;
+}
+
+body{
+    color: black;
+    background-color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.8em;
+
+}
+
+section #EngCon {
+    width:42.5%;
+}
+
+nav>ul{
+    list-style-type:none;
+}
+nav li{
+    margin-left: 10px;
+}
+h1{
+    font-size: 2.2em;
+    background-color: white;
+    padding-top: 20px;
+    
+}
+h2{
+    font-size: 1.5em;
+}
+
+
+section.syllabus h2{
+    color: white;
+    background-color: rgb(89, 210, 107);
+    padding: 5px;
+
+}
+
+
+section{
+    background-color: white;
+    color:black;
+}
+
+aside{
+    background-color: green;
+    color:white;
+    line-height: 2em;
+    list-style-type: decimal;
+    /* padding-left: 5px; */
+
+}
+
+aside>ul>li>a:link {  
+    text-decoration:none;
+    color:white;
+
+}
+aside>ul>li>a:visited{  
+    text-decoration:none;
+    color:ivory;
+
+}
+aside>ul>li>a:hover, aside>ul>li>a:focus, aside>ul>li>a:active{  
+    text-decoration:underline;
+    color:rgb(60, 0, 255);
+
+}
+
+
+

@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+h2{
+    color: rgb(62, 156, 156);
+}
+p{
+    font-family:'Courier New', Courier, monospace;
+}
+h2.highlight{
+    background-color: yellow;
+    text-decoration: highlight;
+}
+#main-title{
+    color: red;
+    background-color: antiquewhite;
+}
+nav ul li{
+    color: brown;
+}
+
+h2~p {
+    color: rgb(30, 30, 223)0, 223;
+}

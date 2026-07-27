@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+body {
+	margin-left: auto;
+	margin-right:auto;
+	width: 95%;
+	max-width: 1200px;
+	min-width: 640px;
+	
+   
+	
+		
+}
+header > img {
+	margin: 0;
+	width: 50%;
+	overflow: hidden;
+	float:left;
+	vertical-align: middle;
+	
+}
+
+header > h1 {
+	clear: left;
+}
+
+body>header>nav.group{
+	/* width:20%; */
+	line-height: 150px;
+	/* float: left; */
+	/* display:block; */
+	text-align:right;
+	border: 1px ;;
+	
+}
+
+nav li {
+	display: inline;
+	
+}
+
+ body>section{
+	float:left;
+	width: 75%;
+	/* border: 1px solid red;; */
+}
+
+#EngCon{
+	display: block;
+	margin-left: 25%;
+	
+	
+}
+
+section.syllabus>a.button{
+	display: block;
+
+    position: relative;
+	bottom: 20px;
+	left: 112%;
+	
+	
+	
+	
+}
+
+
+
+
+body>aside{
+    width:23.5%;
+	
+    float:right;
+	
+}
+body>footer{
+	font:normal small-caps bold 0.9em/3em;
+	text-align: left;
+	padding: 5px;
+	
+}
+

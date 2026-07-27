@@ -1,0 +1,9 @@
+body {
+    background-color: #fcf8f2;
+}
+
+.order-card {
+    border-radius: 15px;
+    border: 2px solid #dc3545; /* Red accent matching Bootstrap danger class */
+    box-shadow: 0 6px 20px rgba(220, 53, 69, 0.1);
+}

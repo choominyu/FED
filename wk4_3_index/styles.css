@@ -1,0 +1,25 @@
+@charset "utf-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0px;
+}
+
+header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.box {
+    background-color: lightblue;
+    margin-bottom: 10px;
+    /* Students will modify below */
+    padding: 2px;
+    text-align: center;
+    border: 5px solid #333;
+}  
+
+h2{
+    padding: 10px;
+}

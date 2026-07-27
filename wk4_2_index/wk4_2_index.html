@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors & Specificity Activity</title>
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1 id="main-title">Welcome to CSS Activity</h1>
+        <p class="highlight">Learn how selectors and specificity work!</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- SECTION 1 -->
+        <section>
+            <h2>Section One</h2>
+            <p>This is a paragraph under section one.</p>
+            <p class="highlight">This paragraph is highlighted.</p>
+
+            <div class="card">
+                <h3>Card Title</h3>
+                <p>This is inside a div card.</p>
+            </div>
+        </section>
+
+        <!-- SECTION 2 -->
+        <section>
+            <h2>Section Two</h2>
+            <p>This paragraph comes right after h2.</p>
+
+            <div class="card">
+                <h3>Another Card</h3>
+                <p>This is another card content.</p>
+            </div>
+        </section>
+
+        <!-- SECTION 3 -->
+        <section>
+             <h2 class="highlight">Section Three</h2>
+            <p>This section heading also has a class.</p>
+        </section>
+
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside>
+        <h2>Sidebar</h2>
+        <p>Some additional information here.</p>
+    </aside>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 CSS Learning Activity</p>
+    </footer>
+
+</body>
+</html>

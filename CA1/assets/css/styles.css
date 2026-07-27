@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+html {
+    background-color:white;
+}
+
+body{
+    color: black;
+    background-color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.8em;
+
+}
+
+
+section #EngCon {
+    width:42.5%;
+}
+
+nav>ul{
+    list-style-type:none;
+}
+nav li{
+    margin-left: 12px;
+}
+nav.group>ul>li>a:link, nav.group>ul>li>a:visited{  
+    text-decoration:none;
+    color:rgb(22, 84, 22);
+
+}
+
+nav.group>ul>li>a:hover, nav.group>ul>li>a:focus, nav.group>ul>li>a:active{  
+    text-decoration:underline;
+    color:rgb(60, 0, 255);
+
+}
+h1{
+    font-size: 2.2em;
+    background-color: white;
+    padding-top: 20px;
+    
+}
+h2{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 0.6em;
+}
+
+img{
+    padding: 5px; 
+    
+    
+}
+
+
+section.syllabus h2{
+    color: white;
+    background-color: rgb(87, 202, 104);
+    padding: 5px;
+
+}
+
+
+section{
+    background-color: white;
+    color:black;
+}
+
+section.syllabus ol{
+    list-style-type: decimal;
+
+}
+section.syllabus ol ol{
+    list-style-type: upper-alpha;
+
+}
+section.syllabus ol ol ol{
+    list-style-type: upper-roman;
+
+}
+
+
+
+section.syllabus>a.button:link, section.syllabus>a.button:visited{
+    color: black;
+    text-decoration:none;
+    font-weight: bold;
+    
+    
+    
+}
+section.syllabus>a.button:hover, section.syllabus>a.button:focus, section.syllabus>a.button:active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+aside{
+    background-color: white;
+    color:black;
+    line-height: 2em;
+    list-style-type: decimal;
+    
+
+}
+
+aside>ul>li>a:link, aside>ul>li>a:visited {  
+    text-decoration:none;
+    color:rgb(22, 84, 22);
+
+}
+
+aside>ul>li>a:hover, aside>ul>li>a:focus, aside>ul>li>a:active{  
+    text-decoration:underline;
+    color:rgb(60, 0, 255);
+
+}
+
+footer{
+    /* clear:both; */
+    clear: left;
+    font-size: 0.6em;
+    background-color: rgb(22, 84, 22);
+    color: white;
+    padding: 2px;
+}
+footer>h6{
+    text-decoration: underline;
+}
+footer>ul{
+    list-style-type:none;
+}
+
+footer>ul>li>a:link, footer>ul>li>a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+footer>ul>li>a:hover, footer>ul>li>a:focus, footer>ul>li>a:active{  
+    text-decoration:underline;
+    
+
+}
+
+
+
+
+

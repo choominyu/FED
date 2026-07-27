@@ -1,0 +1,93 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  /* font-family: Arial, sans-serif; */
+  font-family: 'Open Sans', 'sans-serif';
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation */
+.navigation a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.navigation {
+  display:flex;
+  gap: 20px;
+}
+
+/* Main Layout  */
+.main-content {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 5px;
+}
+
+/* Articles */
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.articles{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Not needed for CA1 */
+@media(max-width: 700px) {
+  .header{
+    flex-direction: column;
+    text-align: center;
+  }
+  .navigation{
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .main-content{
+    grid-template-columns: 1fr;
+  }
+  .articles{
+    grid-template-columns: 1fr;
+  }
+}
